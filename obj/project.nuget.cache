@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OKeiG3Pc8rhRCX0X+oJGjJm/5sHJkiKx7Ho3H4z3IWUiH9HsqA2u2/f36xo/DmJkicmRxQOrp+sEF3YZCXpztQ==",
+  "success": true,
+  "projectFilePath": "D:\\TextValidator\\PowerApps_Component.pcfproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.7.2\\microsoft.powerapps.msbuild.pcf.1.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

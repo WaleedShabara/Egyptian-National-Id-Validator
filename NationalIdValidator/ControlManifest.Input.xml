@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="WAR" constructor="NationalId" version="0.0.1" display-name-key="Validate Egyptian National Id" description-key="Validate Egyptian National Id" control-type="standard">
+     <type-group name="strings">
+      <type>Multiple</type>
+      <type>SingleLine.Text</type>
+    </type-group>
+    <property name="NationalIdValue" display-name-key="National_Id_Value" description-key="Enter the National Id" of-type-group="strings" usage="bound" required="true" />
+    
+    <resources>
+       <code path="index.ts" order="2"/>
+      <css path="css/style.css" order="1" />
+    </resources>
+  </control>
+</manifest>

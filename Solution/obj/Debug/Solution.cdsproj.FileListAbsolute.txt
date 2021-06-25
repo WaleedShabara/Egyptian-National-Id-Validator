@@ -1,0 +1,2 @@
+D:\TextValidator\Solution\obj\Debug\Solution.cdsprojAssemblyReference.cache
+D:\TextValidator\Solution\obj\Debug\Solution.cdsproj.CoreCompileInputs.cache

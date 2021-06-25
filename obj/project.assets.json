@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.2": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Pcf.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Pcf.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win-x64": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Pcf.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win-x86": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Pcf.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+      "sha512": "0rjzEmUQZC45iTL6yrTCKn0JEc9WqTUhoh/4092LkCmSmMexQiaJk6KniT5UCBi0q+tkpnzz4VsL9zcSTF4xXg==",
+      "type": "package",
+      "path": "microsoft.powerapps.msbuild.pcf/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "3rdPartyNotice.txt",
+        "LICENSE.txt",
+        "build/Microsoft.PowerApps.MSBuild.Pcf.props",
+        "build/Microsoft.PowerApps.MSBuild.Pcf.targets",
+        "microsoft.powerapps.msbuild.pcf.1.7.2.nupkg.sha512",
+        "microsoft.powerapps.msbuild.pcf.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.2": [
+      "Microsoft.PowerApps.MSBuild.Pcf >= 1.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\TextValidator\\PowerApps_Component.pcfproj",
+      "projectName": "PowerApps_Component",
+      "projectPath": "D:\\TextValidator\\PowerApps_Component.pcfproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "D:\\TextValidator\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net462"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net462": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net462": {
+        "dependencies": {
+          "Microsoft.PowerApps.MSBuild.Pcf": {
+            "target": "Package",
+            "version": "[1.*, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

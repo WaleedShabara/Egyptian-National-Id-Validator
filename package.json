@@ -1,0 +1,20 @@
+{
+  "name": "national-id-validator-pcf",
+  "version": "1.0.0",
+  "description": "Egyptian National Id Validator PCF Conrol",
+  "scripts": {
+    "build": "pcf-scripts build",
+    "clean": "pcf-scripts clean",
+    "rebuild": "pcf-scripts rebuild",
+    "start": "pcf-scripts start"
+  },
+  "dependencies": {
+    "@types/node": "^10.17.26",
+    "@types/powerapps-component-framework": "1.1.0",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "pcf-scripts": "^0.4.3",
+    "pcf-start": "^0.4.3"
+  }
+}

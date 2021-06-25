@@ -1,0 +1,4 @@
+C:\@DEV\@Pessoal\PowerApps_Component\pcf-cpfcnpj-control\pcf-cpfcnpj-control\obj\Debug\PowerApps_Component.pcfprojAssemblyReference.cache
+C:\@DEV\@Pessoal\PowerApps_Component\pcf-cpfcnpj-control\pcf-cpfcnpj-control\obj\Debug\PowerApps_Component.pcfproj.CoreCompileInputs.cache
+D:\TextValidator\obj\Debug\PowerApps_Component.pcfprojAssemblyReference.cache
+D:\TextValidator\obj\Debug\PowerApps_Component.pcfproj.CoreCompileInputs.cache

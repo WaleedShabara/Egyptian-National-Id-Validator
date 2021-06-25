@@ -1,0 +1,22 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css";
+
+
+.WAR\.NationalId .control-invalid
+{
+    color:red;
+}
+
+.WAR\.NationalId .control-valid
+{
+    color:green;
+}
+
+.WAR\.NationalId span
+{
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.WAR\.NationalId input{
+    width:90%;
+}
