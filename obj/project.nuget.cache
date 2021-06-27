@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OKeiG3Pc8rhRCX0X+oJGjJm/5sHJkiKx7Ho3H4z3IWUiH9HsqA2u2/f36xo/DmJkicmRxQOrp+sEF3YZCXpztQ==",
+  "dgSpecHash": "qVz5tDFY/i5elJZvWH35R1m4fDnDrxFcuvLnGmHVzdxFVs6I1RQCD95A4o8aOefugYB+Lyb3J+QM8eOAKfGr6g==",
   "success": true,
-  "projectFilePath": "D:\\TextValidator\\PowerApps_Component.pcfproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\PowerApps_Component.pcfproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.7.2\\microsoft.powerapps.msbuild.pcf.1.7.2.nupkg.sha512"
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.7.3\\microsoft.powerapps.msbuild.pcf.1.7.3.nupkg.sha512"
   ],
   "logs": []
 }

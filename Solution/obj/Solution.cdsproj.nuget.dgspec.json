@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TextValidator\\Solution\\Solution.cdsproj": {}
+    "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\Solution\\Solution.cdsproj": {}
   },
   "projects": {
-    "D:\\TextValidator\\PowerApps_Component.pcfproj": {
+    "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\PowerApps_Component.pcfproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TextValidator\\PowerApps_Component.pcfproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\PowerApps_Component.pcfproj",
         "projectName": "PowerApps_Component",
-        "projectPath": "D:\\TextValidator\\PowerApps_Component.pcfproj",
+        "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\PowerApps_Component.pcfproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\TextValidator\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "D:\\TextValidator\\Solution\\Solution.cdsproj": {
+    "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\Solution\\Solution.cdsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TextValidator\\Solution\\Solution.cdsproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\Solution\\Solution.cdsproj",
         "projectName": "Solution",
-        "projectPath": "D:\\TextValidator\\Solution\\Solution.cdsproj",
+        "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\Solution\\Solution.cdsproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\TextValidator\\Solution\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\Solution\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -83,8 +83,8 @@
         "frameworks": {
           "net462": {
             "projectReferences": {
-              "D:\\TextValidator\\PowerApps_Component.pcfproj": {
-                "projectPath": "D:\\TextValidator\\PowerApps_Component.pcfproj"
+              "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\PowerApps_Component.pcfproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\PowerApps_Component.pcfproj"
               }
             }
           }

@@ -2,3 +2,5 @@ C:\@DEV\@Pessoal\PowerApps_Component\pcf-cpfcnpj-control\pcf-cpfcnpj-control\obj
 C:\@DEV\@Pessoal\PowerApps_Component\pcf-cpfcnpj-control\pcf-cpfcnpj-control\obj\Debug\PowerApps_Component.pcfproj.CoreCompileInputs.cache
 D:\TextValidator\obj\Debug\PowerApps_Component.pcfprojAssemblyReference.cache
 D:\TextValidator\obj\Debug\PowerApps_Component.pcfproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\GitHub\Egyptian-National-Id-Validator\obj\Debug\PowerApps_Component.pcfprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\GitHub\Egyptian-National-Id-Validator\obj\Debug\PowerApps_Component.pcfproj.CoreCompileInputs.cache

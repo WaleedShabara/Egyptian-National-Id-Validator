@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "kUTht9dHyf1USlETE1gndvgSzLhwY2rNPup1H73yumEOXNlmjemAY+1NOOAtORdz9BGKHwD59t4yra8fAR94og==",
+  "dgSpecHash": "GqS8vwVLygnVpGXZPpp1BZrTc1IhJ8w0/CJhh+EXvlcFWr/k549z1CPy49rpNyzLYo8SWMj9K5VT07yFfdLuFw==",
   "success": true,
-  "projectFilePath": "D:\\TextValidator\\Solution\\Solution.cdsproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\Solution\\Solution.cdsproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net462\\1.0.0\\microsoft.netframework.referenceassemblies.net462.1.0.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.7.2\\microsoft.powerapps.msbuild.pcf.1.7.2.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.powerapps.msbuild.solution\\1.7.2\\microsoft.powerapps.msbuild.solution.1.7.2.nupkg.sha512"
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.7.3\\microsoft.powerapps.msbuild.pcf.1.7.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.powerapps.msbuild.solution\\1.7.3\\microsoft.powerapps.msbuild.solution.1.7.3.nupkg.sha512"
   ],
   "logs": []
 }

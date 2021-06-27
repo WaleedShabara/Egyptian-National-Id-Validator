@@ -14,13 +14,13 @@
           "build/Microsoft.NETFramework.ReferenceAssemblies.net462.targets": {}
         }
       },
-      "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.7.3": {
         "type": "package",
         "build": {
           "build/_._": {}
         }
       },
-      "Microsoft.PowerApps.MSBuild.Solution/1.7.2": {
+      "Microsoft.PowerApps.MSBuild.Solution/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
@@ -58,13 +58,13 @@
           "build/Microsoft.NETFramework.ReferenceAssemblies.net462.targets": {}
         }
       },
-      "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.7.3": {
         "type": "package",
         "build": {
           "build/_._": {}
         }
       },
-      "Microsoft.PowerApps.MSBuild.Solution/1.7.2": {
+      "Microsoft.PowerApps.MSBuild.Solution/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
@@ -102,13 +102,13 @@
           "build/Microsoft.NETFramework.ReferenceAssemblies.net462.targets": {}
         }
       },
-      "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.7.3": {
         "type": "package",
         "build": {
           "build/_._": {}
         }
       },
-      "Microsoft.PowerApps.MSBuild.Solution/1.7.2": {
+      "Microsoft.PowerApps.MSBuild.Solution/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
@@ -146,13 +146,13 @@
           "build/Microsoft.NETFramework.ReferenceAssemblies.net462.targets": {}
         }
       },
-      "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.7.3": {
         "type": "package",
         "build": {
           "build/_._": {}
         }
       },
-      "Microsoft.PowerApps.MSBuild.Solution/1.7.2": {
+      "Microsoft.PowerApps.MSBuild.Solution/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
@@ -517,10 +517,10 @@
         "microsoft.netframework.referenceassemblies.net462.nuspec"
       ]
     },
-    "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
-      "sha512": "0rjzEmUQZC45iTL6yrTCKn0JEc9WqTUhoh/4092LkCmSmMexQiaJk6KniT5UCBi0q+tkpnzz4VsL9zcSTF4xXg==",
+    "Microsoft.PowerApps.MSBuild.Pcf/1.7.3": {
+      "sha512": "1fSgD/frfkVSB/9N1q2I5lPe0cDsppv3yJ2Z3xtuj4Hs9dqhSZ/K2JOB9BZPNygT9c4HCvdAgnQFp07aMivfAw==",
       "type": "package",
-      "path": "microsoft.powerapps.msbuild.pcf/1.7.2",
+      "path": "microsoft.powerapps.msbuild.pcf/1.7.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -528,14 +528,14 @@
         "LICENSE.txt",
         "build/Microsoft.PowerApps.MSBuild.Pcf.props",
         "build/Microsoft.PowerApps.MSBuild.Pcf.targets",
-        "microsoft.powerapps.msbuild.pcf.1.7.2.nupkg.sha512",
+        "microsoft.powerapps.msbuild.pcf.1.7.3.nupkg.sha512",
         "microsoft.powerapps.msbuild.pcf.nuspec"
       ]
     },
-    "Microsoft.PowerApps.MSBuild.Solution/1.7.2": {
-      "sha512": "iLH5XABFShAnuBAvZX3RLJ3BVjUaDag45p/lNdCYwcLBVbnv5JofQk29Tvm/yJyxSV4iImaGvXAKF9TBIEZwvA==",
+    "Microsoft.PowerApps.MSBuild.Solution/1.7.3": {
+      "sha512": "fuhjnn8zEvmsFXDGnwh3wrbv8WXu3KtasCa3Ba3SBxReSynSjFdYJ2CZ88WgYOaF34c0DiO6rlgYqkO/e3p+6A==",
       "type": "package",
-      "path": "microsoft.powerapps.msbuild.solution/1.7.2",
+      "path": "microsoft.powerapps.msbuild.solution/1.7.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -545,12 +545,13 @@
         "build/Microsoft.PowerApps.MSBuild.Solution.targets",
         "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.props",
         "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.targets",
-        "microsoft.powerapps.msbuild.solution.1.7.2.nupkg.sha512",
+        "microsoft.powerapps.msbuild.solution.1.7.3.nupkg.sha512",
         "microsoft.powerapps.msbuild.solution.nuspec",
         "tasks/net462/CsvHelper.dll",
         "tasks/net462/Microsoft.ApplicationInsights.dll",
         "tasks/net462/Microsoft.PowerApps.MSBuild.Tasks.dll",
         "tasks/net462/Microsoft.PowerPlatform.Tooling.BatchedTelemetry.dll",
+        "tasks/net462/Newtonsoft.Json.dll",
         "tasks/net462/SolutionPackagerLib.dll",
         "tasks/net462/System.Configuration.ConfigurationManager.dll",
         "tasks/net462/System.IO.Packaging.dll",
@@ -564,6 +565,7 @@
         "tasks/net5.0/Microsoft.ApplicationInsights.dll",
         "tasks/net5.0/Microsoft.PowerApps.MSBuild.Tasks.dll",
         "tasks/net5.0/Microsoft.PowerPlatform.Tooling.BatchedTelemetry.dll",
+        "tasks/net5.0/Newtonsoft.Json.dll",
         "tasks/net5.0/SolutionPackagerLib.dll",
         "tasks/net5.0/System.ComponentModel.Composition.dll",
         "tasks/net5.0/System.Configuration.ConfigurationManager.dll",
@@ -597,11 +599,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TextValidator\\Solution\\Solution.cdsproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\Solution\\Solution.cdsproj",
       "projectName": "Solution",
-      "projectPath": "D:\\TextValidator\\Solution\\Solution.cdsproj",
+      "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\Solution\\Solution.cdsproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\TextValidator\\Solution\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\Solution\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -621,8 +623,8 @@
       "frameworks": {
         "net462": {
           "projectReferences": {
-            "D:\\TextValidator\\PowerApps_Component.pcfproj": {
-              "projectPath": "D:\\TextValidator\\PowerApps_Component.pcfproj"
+            "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\PowerApps_Component.pcfproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\PowerApps_Component.pcfproj"
             }
           }
         }

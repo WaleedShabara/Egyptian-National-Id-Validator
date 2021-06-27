@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="WAR" constructor="NationalId" version="0.0.1" display-name-key="Validate Egyptian National Id" description-key="Validate Egyptian National Id" control-type="standard">
+  <control namespace="WAR" constructor="NationalId" version="0.0.4" display-name-key="Validate Egyptian National Id" description-key="Validate Egyptian National Id" control-type="standard">
      <type-group name="strings">
       <type>Multiple</type>
       <type>SingleLine.Text</type>
     </type-group>
     <property name="NationalIdValue" display-name-key="National_Id_Value" description-key="Enter the National Id" of-type-group="strings" usage="bound" required="true" />
-    
+    <property name="GenderValue" display-name-key="Gender_Value" description-key="The Gender Value Associated With the National Id" of-type="OptionSet" usage="bound" required="false" />
+    <property name="BirthdateValue" display-name-key="Birthdate_Value" description-key="The Birthdate Value Associated With the National Id" of-type="DateAndTime.DateOnly" usage="bound"  required="false"/>
     <resources>
        <code path="index.ts" order="2"/>
       <css path="css/style.css" order="1" />

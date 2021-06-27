@@ -1,3 +1,7 @@
+export enum Gender{
+    Male=1,
+    Female=2
+}
 export class NationalIdValidator
 {
     public validateNid(nid:string):boolean{
@@ -9,6 +13,23 @@ export class NationalIdValidator
             if (f > 9) { (f -= 10) };
             result = (parseInt(a) == f)
             }
+        return result;
+    }
+
+    public getGenderFromNid(nid:string):Gender{
+        var genderIdentifiernid=nid.substr(12,1);
+        var result:number=+genderIdentifiernid;
+        if(result%2==0)
+            return Gender.Female;
+        else
+            return Gender.Male;
+    }
+
+    public getBirthDateFromNid(nid:string):string{
+        var result=nid.substr(0,1)=="2"?"19":"20";
+        result+=nid.substr(1,2)+"-";
+        result+=nid.substr(3,2)+"-";
+        result+=nid.substr(5,2)+"T00:00:00";
         return result;
     }
 }

@@ -1,2 +1,2 @@
-D:\TextValidator\Solution\obj\Debug\Solution.cdsprojAssemblyReference.cache
-D:\TextValidator\Solution\obj\Debug\Solution.cdsproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\GitHub\Egyptian-National-Id-Validator\Solution\obj\Debug\Solution.cdsprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\GitHub\Egyptian-National-Id-Validator\Solution\obj\Debug\Solution.cdsproj.CoreCompileInputs.cache

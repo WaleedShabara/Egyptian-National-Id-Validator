@@ -1,6 +1,6 @@
 import {IInputs, IOutputs} from "./generated/ManifestTypes";
 import { string } from "prop-types";
-import {NationalIdValidator} from './NationalIdValidator';
+import {Gender, NationalIdValidator} from './NationalIdValidator';
 
 export class NationalId implements ComponentFramework.StandardControl<IInputs, IOutputs>
 {
@@ -13,8 +13,10 @@ export class NationalId implements ComponentFramework.StandardControl<IInputs, I
 	_context: ComponentFramework.Context<IInputs>;
 	_campoFormatado: boolean;
 	_nid: string;
+	_gender?:Gender;
+	_birthdate?:Date;
 	_refreshData: EventListenerOrEventListenerObject;
-	_validador = new NationalIdValidator();
+	_validator = new NationalIdValidator();
 	_notifyOutputChanged: () => void;
 
 	constructor(){
@@ -61,9 +63,13 @@ export class NationalId implements ComponentFramework.StandardControl<IInputs, I
 	{
 		if(this._nid !== "" && this._nid !== undefined)
 		{
-			if(this._validador.validateNid(this._nid))
+			if(this._validator.validateNid(this._nid))
 			{
 				console.log('Valid National ID');
+				this._birthdate=new Date(this._validator.getBirthDateFromNid(this._nid));
+				console.log(this._birthdate);
+				this._gender=this._validator.getGenderFromNid(this._nid);
+				console.log(this._gender);
 				this._iconControl.classList.remove("control-invalid");
 				this._iconControl.classList.remove("fa-times-circle");
 				this._iconControl.classList.add("fa-check-circle");
@@ -71,6 +77,8 @@ export class NationalId implements ComponentFramework.StandardControl<IInputs, I
 			}
 			else{
 				this._nid = "";
+				this._birthdate=undefined;
+				this._gender=undefined;
 				console.log('Invalid National Id');
 				this._iconControl.classList.remove("control-valid");
 				this._iconControl.classList.remove("fa-check-circle");
@@ -90,8 +98,8 @@ export class NationalId implements ComponentFramework.StandardControl<IInputs, I
 		this._notifyOutputChanged = notifyOutputChanged;
 		this._nid = context.parameters.NationalIdValue.formatted? context.parameters.NationalIdValue.formatted : "";
 		this.renderControl(container);
-		if(this._nid !== "" && this._nid !== undefined)
-			this.validateField();
+		//if(this._nid !== "" && this._nid !== undefined)
+		this.validateField();
 	}
 
 	public updateView(context: ComponentFramework.Context<IInputs>): void
@@ -103,7 +111,10 @@ export class NationalId implements ComponentFramework.StandardControl<IInputs, I
 	public getOutputs(): IOutputs
 	{
 		return {
-			NationalIdValue: this._nid
+			NationalIdValue: this._nid,
+			BirthdateValue:this._birthdate,
+			GenderValue:this._gender,
+			
 		};
 	}
 

@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.2": {
-      "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -11,7 +11,7 @@
       }
     },
     ".NETFramework,Version=v4.6.2/win": {
-      "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -20,7 +20,7 @@
       }
     },
     ".NETFramework,Version=v4.6.2/win-x64": {
-      "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -29,7 +29,7 @@
       }
     },
     ".NETFramework,Version=v4.6.2/win-x86": {
-      "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.7.3": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -39,10 +39,10 @@
     }
   },
   "libraries": {
-    "Microsoft.PowerApps.MSBuild.Pcf/1.7.2": {
-      "sha512": "0rjzEmUQZC45iTL6yrTCKn0JEc9WqTUhoh/4092LkCmSmMexQiaJk6KniT5UCBi0q+tkpnzz4VsL9zcSTF4xXg==",
+    "Microsoft.PowerApps.MSBuild.Pcf/1.7.3": {
+      "sha512": "1fSgD/frfkVSB/9N1q2I5lPe0cDsppv3yJ2Z3xtuj4Hs9dqhSZ/K2JOB9BZPNygT9c4HCvdAgnQFp07aMivfAw==",
       "type": "package",
-      "path": "microsoft.powerapps.msbuild.pcf/1.7.2",
+      "path": "microsoft.powerapps.msbuild.pcf/1.7.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -50,7 +50,7 @@
         "LICENSE.txt",
         "build/Microsoft.PowerApps.MSBuild.Pcf.props",
         "build/Microsoft.PowerApps.MSBuild.Pcf.targets",
-        "microsoft.powerapps.msbuild.pcf.1.7.2.nupkg.sha512",
+        "microsoft.powerapps.msbuild.pcf.1.7.3.nupkg.sha512",
         "microsoft.powerapps.msbuild.pcf.nuspec"
       ]
     }
@@ -67,11 +67,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TextValidator\\PowerApps_Component.pcfproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\PowerApps_Component.pcfproj",
       "projectName": "PowerApps_Component",
-      "projectPath": "D:\\TextValidator\\PowerApps_Component.pcfproj",
+      "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\PowerApps_Component.pcfproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\TextValidator\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\Egyptian-National-Id-Validator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
